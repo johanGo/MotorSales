@@ -172,7 +172,7 @@ body {
     height: 14rem;
   }
   .main .header span h1 {
-    font-size: 1.6875rem;
+    font-size: 3rem;
   }
   .main .header .navbar {
     display: none;
@@ -199,9 +199,6 @@ body {
   }
   .main .header .menu-responsive {
     display: block;
-  }
-  .main .header .menu-responsive .menu-burguer {
-    width: 2.5rem;
   }
   .main .header .menu-responsive .background-dark-modal {
     width: 100%;
