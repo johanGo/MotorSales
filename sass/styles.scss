@@ -45,9 +45,9 @@ body{
             justify-content: space-between;
             // border: 1px solid white;
             span{
-               text-decoration: none;
-               color:v.$orange-color;
-               font-size: 1.625rem;
+                text-decoration: none;
+                color:v.$orange-color;
+                font-size: 1.625rem;
                 img{
                     width: 0.9375rem;
                     margin: 3px;
@@ -174,21 +174,18 @@ body{
 @media (max-width:380px){
     .main{
         padding: 0;           
-        // border:2px solid red;
+        border:2px solid red;
         height: 100vh;
         overflow-x: hidden;
         .header{
-            border:2px solid green;
+            border:2px solid ;
             padding:0 25px;
             height: 14rem;
             span{
                 h1{
-                    font-size:27px;
+                    font-size:1.6875rem;
                 }
-            }
-            .menu-burguer{
-                display: block;
-            }
+            }            
             .navbar{
                 display: none;
                 .menu-close{
@@ -217,7 +214,7 @@ body{
             .menu-responsive{
                 display:block;                
                 .menu-burguer{
-                    width: 40px;
+                    width: 2.5rem;
                 }
                 .background-dark-modal{
                     width: 100%;
@@ -343,9 +340,9 @@ body{
         }
     }
 }
-@media (max-width:370px){
+@media (max-width:380px){
     html{
-        font-size: 5px;
+        font-size: 8px;
     }
 }
 

@@ -172,7 +172,10 @@ body {
     height: 14rem;
   }
   .main .header span h1 {
-    font-size: 1.6875rem;
+    font-size: 27px;
+  }
+  .main .header .menu-burguer {
+    display: block;
   }
   .main .header .navbar {
     display: none;
@@ -201,7 +204,7 @@ body {
     display: block;
   }
   .main .header .menu-responsive .menu-burguer {
-    width: 2.5rem;
+    width: 40px;
   }
   .main .header .menu-responsive .background-dark-modal {
     width: 100%;
@@ -239,6 +242,7 @@ body {
     font-size: 2rem;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     cursor: pointer;
+    width: -moz-fit-content;
     width: fit-content;
   }
   .main .header .menu-responsive .background-dark-modal .background-white-modal .container-options-mobile span .arrows-mobile {
@@ -313,10 +317,8 @@ body {
     z-index: 50;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 375px) {
   html {
     font-size: 8px;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
