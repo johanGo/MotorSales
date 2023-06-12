@@ -166,8 +166,9 @@ body {
     overflow-x: hidden;
   }
   .main .header {
+    border: 2px solid green;
     padding: 0 25px;
-    height: 140px;
+    height: 14rem;
   }
   .main .header span h1 {
     font-size: 27px;
@@ -312,6 +313,11 @@ body {
     right: 0;
     top: 30.125rem;
     z-index: 50;
+  }
+}
+@media (max-width: 360px) {
+  html {
+    font-size: 9px;
   }
 }
 
