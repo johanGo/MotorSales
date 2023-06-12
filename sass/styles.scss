@@ -174,10 +174,10 @@ body{
 @media (max-width:380px){
     .main{
         padding: 0;           
-        border:2px solid red;
+        //border:2px solid red;
         overflow-x: hidden;
         .header{
-            border:2px solid ;
+            //border:2px solid ;
             padding:0 25px;
             height: 14rem;
             span{
@@ -292,7 +292,7 @@ body{
             }
         }
         .container{
-            border:1px solid white;
+            //border:1px solid white;
             padding: 10px 25px 0;
             .description{
                 .container-texts{
@@ -305,7 +305,7 @@ body{
                         // border: 1px solid yellow;
                     }
                     .text{
-                        border:1px solid red;
+                        //border:1px solid red;
                         font-size: 1.6rem;
                         line-height: 2.4rem;
                         letter-spacing: 0.6px;
@@ -321,7 +321,9 @@ body{
                 .button{
                     display:block;
                     margin:6rem auto;
-                    
+                    width: 18.625rem;
+                    height: 5.375rem;
+                    font-size: 1.9rem;
                 }
             }
             .img-main{
@@ -332,7 +334,7 @@ body{
                 position: absolute;
                 width: 35.25rem;
                 right: 0;
-                top: 30.125rem;
+                top: 33.125rem;
                 z-index: 50;
             }             
         }        
