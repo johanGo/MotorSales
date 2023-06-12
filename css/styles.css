@@ -163,7 +163,7 @@ body {
   .main {
     padding: 0;
     border: 2px solid red;
-    height: 100vh;
+    height: 100%;
     overflow-x: hidden;
   }
   .main .header {
@@ -273,7 +273,9 @@ body {
     transform: translate(100%, 0);
   }
   .main .container {
+    border: 1px solid white;
     padding: 10px 25px 0;
+    height: 84vh;
   }
   .main .container .description .container-texts {
     display: flex;

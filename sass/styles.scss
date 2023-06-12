@@ -175,7 +175,7 @@ body{
     .main{
         padding: 0;           
         border:2px solid red;
-        height: 100vh;
+        height: 100%;
         overflow-x: hidden;
         .header{
             border:2px solid ;
@@ -293,8 +293,9 @@ body{
             }
         }
         .container{
-            // border:1px solid white;
+            border:1px solid white;
             padding: 10px 25px 0;
+            height: 84vh;
             .description{
                 .container-texts{
                     display: flex;
