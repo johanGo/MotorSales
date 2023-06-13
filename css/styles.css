@@ -162,11 +162,9 @@ body {
 @media (max-width: 380px) {
   .main {
     padding: 0;
-    border: 2px solid red;
     overflow-x: hidden;
   }
   .main .header {
-    border: 2px solid;
     padding: 0 25px;
     height: 14rem;
   }
@@ -183,7 +181,7 @@ body {
     clear: both;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 200px;
+    margin-top: 12.5rem;
     gap: 25px;
   }
   .main .header .navbar .container-options-mobile a {
@@ -267,27 +265,22 @@ body {
     transform: translate(100%, 0);
   }
   .main .container {
-    border: 1px solid white;
     padding: 0.625rem 1.5625rem 0;
     height: 85vh;
-  }
-  .main .container .description {
-    border: 1px solid white;
-    width: auto;
   }
   .main .container .description .container-texts {
     display: flex;
     flex-direction: column-reverse;
-    gap: 170px;
+    gap: 20.625rem;
   }
   .main .container .description .container-texts .title {
-    font-size: 22px;
+    font-size: 2.5rem;
     text-align: center;
   }
   .main .container .description .container-texts .text {
     font-size: 1.7rem;
     line-height: 2.4rem;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.0375rem;
   }
   .main .container .description .container-texts .text .br {
     display: none;
@@ -297,7 +290,10 @@ body {
   }
   .main .container .description .button {
     display: block;
-    margin: 70px auto 0;
+    margin: 5.375rem auto 0;
+    width: 20.625rem;
+    height: 6.075rem;
+    font-size: 2.2rem;
   }
   .main .container .img-main {
     display: none;

@@ -174,11 +174,11 @@ body{
 @media (max-width:380px){
     .main{
         padding: 0;           
-        border:2px solid red;
+        // border:2px solid red;
         // height: 100vh;
         overflow-x: hidden;
         .header{
-            border:2px solid ;
+            // border:2px solid ;
             padding:0 25px;
             height: 14rem;
             span{
@@ -195,7 +195,7 @@ body{
                     clear: both;
                     flex-direction: column;
                     align-items: flex-start;
-                    margin-top: 200px;
+                    margin-top: 12.5rem;
                     gap: 25px;
                     a{
                         // display: none;
@@ -288,19 +288,16 @@ body{
             }
         }
         .container{
-            border:1px solid white;
+            // border:1px solid white;
             padding: 0.625rem 1.5625rem 0;
             height: 85vh;
             .description{
-                border:1px solid white;
-                width:auto;
-                // text-align: center;
                 .container-texts{
                     display: flex;
                     flex-direction: column-reverse;
-                    gap: 170px;
+                    gap: 20.625rem;
                     .title{
-                        font-size: 22px;
+                        font-size: 2.5rem;
                         text-align: center;
                         // border: 1px solid yellow;
                     }
@@ -308,7 +305,7 @@ body{
                         // border:1px solid red;
                         font-size: 1.7rem;
                         line-height: 2.4rem;
-                        letter-spacing: 0.6px;
+                        letter-spacing: 0.0375rem;
 
                         .br{
                             display:none;
@@ -320,7 +317,11 @@ body{
                 }
                 .button{
                     display: block;
-                    margin: 70px auto 0;
+                    margin: 5.375rem auto 0;
+                    width: 20.625rem;
+                    height: 6.075rem;   
+                    font-size: 2.2rem;
+
                 }
             }
             .img-main{
