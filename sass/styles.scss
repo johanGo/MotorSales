@@ -45,9 +45,9 @@ body{
             justify-content: space-between;
             // border: 1px solid white;
             span{
-                text-decoration: none;
-                color:v.$orange-color;
-                font-size: 1.625rem;
+               text-decoration: none;
+               color:v.$orange-color;
+               font-size: 1.625rem;
                 img{
                     width: 0.9375rem;
                     margin: 3px;
@@ -171,13 +171,14 @@ body{
         font-size: 10px;
     }
 }
-@media (max-width:380px){
+@media (max-width:390px){
     .main{
         padding: 0;           
-        //border:2px solid red;
+        border:2px solid red;
+        height: 100vh;
         overflow-x: hidden;
         .header{
-            //border:2px solid ;
+            border:2px solid ;
             padding:0 25px;
             height: 14rem;
             span{
@@ -292,7 +293,7 @@ body{
             }
         }
         .container{
-            //border:1px solid white;
+            // border:1px solid white;
             padding: 10px 25px 0;
             .description{
                 .container-texts{
@@ -305,8 +306,8 @@ body{
                         // border: 1px solid yellow;
                     }
                     .text{
-                        //border:1px solid red;
-                        font-size: 1.6rem;
+                        // border:1px solid red;
+                        font-size: 1.7rem;
                         line-height: 2.4rem;
                         letter-spacing: 0.6px;
 
@@ -319,11 +320,7 @@ body{
                     }
                 }
                 .button{
-                    display:block;
-                    margin:6rem auto;
-                    width: 18.625rem;
-                    height: 5.375rem;
-                    font-size: 1.9rem;
+                    margin: 70px 80px 0;
                 }
             }
             .img-main{
@@ -334,7 +331,7 @@ body{
                 position: absolute;
                 width: 35.25rem;
                 right: 0;
-                top: 33.125rem;
+                top: 30.125rem;
                 z-index: 50;
             }             
         }        
@@ -345,7 +342,7 @@ body{
         }
     }
 }
-@media (max-width:380px){
+@media (max-width:400px){
     html{
         font-size: 8px;
     }
