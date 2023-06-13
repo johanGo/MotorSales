@@ -45,9 +45,9 @@ body{
             justify-content: space-between;
             // border: 1px solid white;
             span{
-                text-decoration: none;
-                color:v.$orange-color;
-                font-size: 1.625rem;
+               text-decoration: none;
+               color:v.$orange-color;
+               font-size: 1.625rem;
                 img{
                     width: 0.9375rem;
                     margin: 3px;
@@ -171,7 +171,7 @@ body{
         font-size: 10px;
     }
 }
-@media (max-width:380px){
+@media (max-width:390px){
     .main{
         padding: 0;           
         border:2px solid red;
@@ -342,7 +342,7 @@ body{
         }
     }
 }
-@media (max-width:380px){
+@media (max-width:400px){
     html{
         font-size: 8px;
     }
