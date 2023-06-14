@@ -171,10 +171,11 @@ body{
         font-size: 10px;
     }
 }
-@media (max-width:380px){
+@media (max-width:500px){
     .main{
         padding: 0;           
-        // border:2px solid red;
+        border:2px solid red;
+        min-width: 380px;
         // height: 100vh;
         overflow-x: hidden;
         .header{
