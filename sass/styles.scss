@@ -152,11 +152,67 @@ body{
             display: none;
         }
     }
+    //-------THIRD SECTION------
     .third-section{
         width:100%;
         height:100vh;
-        background-color:rgb(145, 145, 151);    
+        // background-color:rgb(145, 145, 151);    
+        padding-top: 4.0625rem;   
+        .header-filter-products{
+            width: 100%;
+            // border: 1px solid yellow;
+            display: flex;
+            justify-content: space-between;
+            span{
+                h1{
+                    font-size: 2.5rem;
+                    text-transform: uppercase;
+                    display: inline-block;       
+                    color:v.$white-color;         
+                    &::first-letter{
+                        color: v.$orange-color;
+                    }
+                }
+            }
+            .filtro-container{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                .icon-search{
+                    width: 25px;
+                    cursor:pointer;
+                }
+                #input-filter{
+                    background-color: transparent;                    
+                    border: none;
+                    border-bottom: 2px solid #9c9c9c;
+                    padding: 0px 0 0px 0;
+                    width: 15.5rem;
+                    color: #9c9c9c;
+                    font-size: 23px;
+                    // height: 22px;
+                    &::placeholder{
+                        color:#9c9c9c;
+                        font-weight: 600;
+                        // font-size: 20px;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    }
+                    &:focus{
+                        outline: none;
+                        color: #9c9c9c;
+                        // font-size: 17px;
+
+                    }
+                }
+            }
+        }
+        .section-cars{
+            // border:1px solid green;
+            width: 100%;
+            height: 1000px;
+        }
     }
+    //--------END THIRD SECTION-----
     
 }
 @media (max-width:1559px){
@@ -334,7 +390,7 @@ body{
             }
         }
         .container{
-            border:1px solid white;
+            // border:1px solid white;
             padding: 0.625rem 2rem 0;
             height: 85vh;
             text-align: start;
@@ -397,6 +453,68 @@ body{
             }             
             
         }        
+        //-------THIRD SECTION------
+    .third-section{
+        // width:100%;
+        // height:100vh;
+        // background-color:rgb(145, 145, 151);    
+        padding: 0 3.5rem 0;   
+        .header-filter-products{
+            width: 100%;
+            // border: 1px solid yellow;
+            display: flex;
+            justify-content: space-between;
+            span{
+                h1{
+                    font-size: 2.5rem;
+                    text-transform: uppercase;
+                    display: inline-block;       
+                    color:v.$white-color;         
+                    &::first-letter{
+                        color: v.$orange-color;
+                    }
+                }
+            }
+            .filtro-container{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                .icon-search{
+                    width: 25px;
+                    cursor:pointer;
+                }
+                #input-filter{
+                    background-color: transparent;                    
+                    border: none;
+                    border-bottom: 2px solid #9c9c9c;
+                    padding: 0px 0 0px 0;
+                    width: 15.5rem;
+                    color: #9c9c9c;
+                    font-size: 23px;
+                    display:none;
+                    // height: 22px;
+                    &::placeholder{
+                        color:#9c9c9c;
+                        font-weight: 600;
+                        // font-size: 20px;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    }
+                    &:focus{
+                        outline: none;
+                        color: #9c9c9c;
+                        // font-size: 17px;
+
+                    }
+                }
+            }
+        }
+        .section-cars{
+            // border:1px solid green;
+            width: 100%;
+            height: 1000px;
+        }
+    }
+    //--------END THIRD SECTION-----
         
     }
 }
