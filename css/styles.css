@@ -140,7 +140,6 @@ body {
 }
 .main .third-section {
   width: 100%;
-  height: 100vh;
   padding-top: 4.0625rem;
 }
 .main .third-section .header-filter-products {
@@ -467,7 +466,7 @@ body {
 }
 @media (max-width: 380px) {
   html {
-    font-size: 8px;
+    font-size: 9px;
   }
 }
 
