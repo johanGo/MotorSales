@@ -1,0 +1,78 @@
+@use 'variables' as v;
+@use 'header';
+@use 'frontPage';
+@use 'cars';
+@use 'slider';
+@use 'services';
+@use 'contact';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: v.$gray-black-color;    
+    // overflow: hidden;
+}
+.main{
+    max-width: 1600px;
+    margin: 0 auto;
+    // border: 1px solid red;
+    height: auto;
+    position: relative;
+    padding: 0 7.5rem 0;
+    
+}
+@media (min-width:1141px){
+    html{
+        font-size: 14px;
+    }
+}
+@media (max-width:1461px){
+    html{
+        font-size: 13px;
+    }
+}
+@media (max-width:1361px){
+    html{
+        font-size: 12px;
+    }
+}
+// @media (max-width:1240px){
+//     html{
+//         font-size: 11px;
+//     }
+// }
+@media (max-width:1140px){
+    html{
+        font-size: 11px;
+    }
+}
+@media (min-width:630px) and (max-width:940px ){
+    html{
+        // font-size: 13px;
+        .main{
+            padding: 0 4.5rem 0;
+        }
+    }
+}
+@media (max-width:629px){
+    .main{
+        padding: 0;           
+        // border:2px solid red;
+        min-width: 360px;
+        width: 100%;
+        max-width: 475px;
+        overflow-x: hidden;
+    }
+}
+@media (max-width:380px){
+    html{
+        font-size: 9px;
+    }
+}

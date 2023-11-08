@@ -1,0 +1,113 @@
+@use 'variables' as v;
+
+.tramicars-section{
+    width: 100%;
+    margin: 5rem 0;
+    // height: 100vh;
+    // border: 1px solid orangered;
+    .tramicars-title{
+        color: v.$white-color;
+        font-size: 4rem;
+        text-align: center;
+        margin: 6rem 0;
+        // font-weight: 100;
+    }
+    .container-tramicars{
+        margin: 0 10%;
+        // border: 2px solid red;
+        display: grid;
+        gap: 4rem;
+        .container-service{
+            width: 100%;
+            display: flex;
+            gap: 4.5rem;
+            img{
+                width: 50%;
+            }
+            .container-description{
+                color: v.$white-color;
+                // border: 1px solid blue;
+                padding: 1.8rem;
+                width: auto;
+                .title-service{
+                    font-size: 3rem;
+                    text-transform: uppercase;
+                }
+                .transpaso{
+                    // color:red;
+                    font-size: 2.0rem;                         
+                }
+                .description-service{
+                    font-size: 1.4rem;
+                    margin-top: 2rem;
+                    line-height: 25px;
+                }
+            }
+            &:nth-child(even){
+                flex-direction: row-reverse;
+            }
+        }
+        
+    }
+}
+
+@media (min-width:630px) and (max-width:940px ){
+    .tramicars-section{
+        .container-tramicars{
+            margin: 0;
+            .container-service{
+                gap: 0;
+                .container-description{
+                    padding: 12px;
+                    .title-service{
+                        font-size: 2.3rem;
+                    }
+                    .transpaso{
+                        font-size: 1.6rem;
+                        // color: red;
+                    }
+                    .description-service{
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:629px){
+    .tramicars-section{
+        // border:1px solid aqua;
+        .container-tramicars{
+            margin: 0;
+            .container-service{
+                // border: 1px solid red;
+                flex-direction: column;
+                gap: 10px;
+                padding: 0 40px;
+                img{
+                    width: 100%;
+                }
+                .container-description{
+                    text-align: center;
+                    padding: 15px;
+                    .title-service{
+                        font-size: 3rem;
+                    }
+                    .transpaso{
+                        font-size: 2.5rem;
+                        // color: red;
+                    }
+                    .description-service{
+                        line-height: normal;
+                        font-size: 1.8rem;
+                    }
+                }
+                &:nth-child(even){
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}

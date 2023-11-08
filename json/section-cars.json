@@ -1,0 +1,79 @@
+[
+    {        
+        "title":"chevrolet spark",
+        "description":"Esta es la primera descripción de este carro",
+        "specifications":{
+            "kilometraje":47309,
+            "model":2018,
+            "plate":"ABC123",
+            "city":"Bogota D.C"
+        },
+        "price":"38.990.000"
+    },
+    {        
+        "title":"renault sedan",
+        "description":"Esta es la segunda descripción de este carro",
+        "specifications":{
+            "kilometraje":25000,
+            "model":2020,
+            "plate":"dfg456",
+            "city":"honda"
+        },
+        "price":"20.000.000"
+    },
+    {        
+        "title":"mazda murcielago",
+        "description":"Esta es la tercera descripción de este carro",
+        "specifications":{
+            "kilometraje":10200,
+            "model":2015,
+            "plate":"hIj789",
+            "city":"CAli"
+        },
+        "price":"27.000"
+    },
+    {        
+        "title":"chevrolet silverado",
+        "description":"Esta es la cuarta descripción de esta camioneta todo terreno con suspención y no se que mas :v",
+        "specifications":{
+            "kilometraje":0,
+            "model":2023,
+            "plate":"doO598",
+            "city":"Medellin"
+        },
+        "price":"350.000.000"
+    },
+    {        
+        "title":"corvet c8",
+        "description":"Esta es la quinta descripción de este super carro deportivo convertible y no se que mas :v",
+        "specifications":{
+            "kilometraje":3000,
+            "model":2022,
+            "plate":"suu777",
+            "city":"Bogota D.C"
+        },
+        "price":"820.000.000"
+    },
+    {        
+        "title":"toyota fj cruiser",
+        "description":"Esta es la sexta descripción de esta camioneta toyota todo terreno con suspención y no se que mas :v",
+        "specifications":{
+            "kilometraje":16300,
+            "model":2022,
+            "plate":"noo070",
+            "city":"Boyaca"
+        },
+        "price":"260.000.000"
+    },
+    {        
+        "title":"mercedez benz clase cla cla",
+        "description":"Esta es la septima descripción de este carro bonito y no se que mas :v",
+        "specifications":{
+            "kilometraje":8000,
+            "model":2022,
+            "plate":"452cla",
+            "city":"Barranquilla"
+        },
+        "price":"310.000.000"
+    }
+]

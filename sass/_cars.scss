@@ -1,0 +1,290 @@
+@use 'variables' as v;
+
+.cars-section{
+    // border: 1px solid yellow;
+    width:100%;
+    // height:100%;
+    padding-top: 4.0625rem;
+    padding-bottom: 4.0625rem;     
+    .header-filter-products{
+        width: 100%;
+        // border: 1px solid yellow;
+        display: flex;
+        justify-content: space-between;
+        span{
+            h1{
+                font-size: 2rem;
+                text-transform: uppercase;
+                display: inline-block;       
+                color:v.$white-color;         
+                &::first-letter{
+                    color: v.$orange-color;
+                }
+            }
+        }
+        .filter-container{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            .icon-search{
+                width: 2.5rem;
+                cursor:pointer;
+            }
+            #input-filter{
+                background-color: transparent;                    
+                border: none;
+                border-bottom: 2px solid #9c9c9c;
+                padding: 0px 0 0px 0;
+                width: 20rem;
+                color: #9c9c9c;
+                font-size: 18px;
+                // height: 22px;
+                &::placeholder{
+                    color:#9c9c9c;
+                    font-weight: 600;
+                    // font-size: 20px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                }
+                &:focus{
+                    outline: none;
+                    color: #9c9c9c;
+                    // font-size: 17px;
+                }
+                &::-webkit-search-cancel-button {
+                    -webkit-appearance: none;
+                    cursor: pointer;                
+                    height: 22px;
+                    width: 22px;
+                    color: white;
+                    margin-bottom: .8rem;
+                    filter: invert(44%)
+                            sepia(56%)
+                            saturate(6%)
+                            hue-rotate(9deg)
+                            brightness(79%)
+                            contrast(9%); 
+                    background-image: url('../imgs/icon-close-menu.svg');
+                }
+            }
+        }
+    }
+    .section-cars{
+        // border: 1px solid wheat;
+        width: 100%;
+        display: grid;
+        // display: none;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 35px 20px;
+        margin-top: 35px;
+        padding: 3px;
+        @media(max-width:1100px){
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @media(max-width:844px){
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media(max-width:629px){
+            grid-template-columns: repeat(1, 1fr);
+        }            
+        .container-img{
+            max-width: 100%;
+            height: 34rem;
+            background-color: #f2f2f2;
+            border-radius: 8px;
+            display: grid;
+            grid-template-rows: 48% 49%;
+            gap: 3%;
+            overflow: hidden;
+            .content-img{
+                height: 100%;
+                width: 100%;   
+            }
+            .container-desc{
+                width: 100%;
+                // height: auto;
+                background-color:v.$gray-dark;
+                padding: .3rem 0 .8rem;
+                display: grid;
+                // gap: 5px;
+                .title-car{
+                    font-size: 2.2rem;
+                    margin: 0 1.2rem;
+                    text-transform: capitalize;
+                }
+                .description-car{
+                    font-size: 1.3rem;
+                    margin: 0 1.2rem;                       
+                }
+                .specifications-car{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    text-transform: uppercase;
+                    div{
+                        background-color: v.$white-color;
+                        border-radius: 10px;
+                        padding: 0.199rem 0.4rem;
+                        font-size: 0.98rem;
+                        text-align: center;
+                    }
+                }
+                .price-car{
+                    font-size: 1.7rem;
+                    margin: 0 1.2rem;
+                    font-weight: 700;             
+                }
+                button{
+                    width: 16rem;
+                    margin: 0 auto;
+                    display: flex;
+                    background-color: #ff6e39;
+                    border: none;
+                    border-radius: 17px;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0.4rem 1rem;
+                    cursor: pointer;
+                    div{
+                        color: white;
+                        font-size: 1.3rem;
+                        text-transform: capitalize;
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        img{
+                            transform: rotate(270deg);
+                            width: 0.8rem;
+                        }
+                    }
+                    img{
+                        width: 1.7rem;
+                    }            
+                }
+            }
+        }
+    }
+    .mensaje{
+        margin: 9rem 0 5rem;
+        display: none;
+        h3{
+            text-align: center;
+            color: white;
+            font-size: 2rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    }
+}
+
+@media (min-width:630px) and (max-width:940px ){
+
+}
+
+
+@media (max-width:629px){
+    .cars-section{
+        width:100%;  
+        padding: 0 3.5rem 4.0625rem;            
+        .header-filter-products{
+            width: 100%;
+            // border: 1px solid yellow;
+            height: 7.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            span{
+                width: auto;
+                // border: 1px solid red;
+                h1{ 
+                    font-size: 3rem;
+                    text-transform: uppercase;
+                    display: inline-block;       
+                    color:v.$white-color;         
+                    &::first-letter{
+                        color: v.$orange-color;
+                    }
+                }
+            }
+            .filter-container{
+                // border: 1px solid red;
+                display: flex;
+                align-items: center;
+                gap:60px;
+                transform: translateX(30px);
+                transition: all .3s;
+                width: 20%;
+                .icon-search{
+                    width: 2.5rem;
+                    cursor:pointer;
+                }
+                #input-filter{
+                    background-color: transparent;                    
+                    border: none;
+                    border-bottom: 2px solid #9c9c9c;
+                    // margin-left: 7rem;
+                    padding: 0px 0 0px 0;
+                    width: 15.5rem;
+                    color: #9c9c9c;
+                    font-size: 18px;
+                    &::placeholder{
+                        color:#9c9c9c;
+                        font-weight: 600;
+                        // font-size: 20px;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    }
+                    &:focus{
+                        outline: none;
+                        color: #9c9c9c;
+                        // font-size: 17px;
+                    }
+                }
+            }
+            .filter-container.appear{
+                width: 60%;
+                gap: 10px;
+                transform: translateX(0px);
+            }
+        }
+        .section-cars{
+            // border:1px solid green;
+            width: 100%;
+            .container-img{
+                // border: 2px solid red;
+                height: 50rem;
+                margin: 0 auto;
+                text-align: center;
+                .container-desc{
+                    .title-car{
+                        font-size: 3rem;
+                    }
+                    .description-car{
+                        font-size: 1.7rem;
+                    }
+                    .specifications-car{
+                        margin: 0 0 9px;
+                        div{     
+                            padding: 0.4rem 0.9rem;    
+                            font-size: 1.3rem;
+                        }
+                    }
+                    .price-car{
+                        font-size: 2.5rem;
+                    }
+                    button{
+                        width: 20rem;
+                        padding: .4em 1.5rem;
+                        div{
+                            font-size: 1.8rem;
+                            img{
+                                width: 1.3rem;
+                            }
+                        }
+                        img{
+                            width: 2rem;
+                        }  
+                    }
+                }
+            }
+        }
+    }
+}

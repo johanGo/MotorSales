@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Motor Sales</title>
+</head>
+<body>        
+    <main class="main">
+        <header class="header">
+            <span>
+                <h1>motor</h1>
+                <h1>sales</h1>
+            </span>
+            <nav class="navbar">
+                <span class="containerArrows containerVenta">
+                    Venta
+                    <img id="arrowVentaDesk" class="arrows" src="imgs/arrow.svg" alt="">
+                </span >
+                <ul class="vent-options">
+                    <li>nose</li>
+                    <li>nose</li>
+                    <li>nose</li>
+                    <li>nose</li>
+                </ul>
+                <span class="containerArrows containerMantenimiento">
+                    Mantenimiento
+                    <img id="arrowMantenimientoDesk" class="arrows" src="imgs/arrow.svg" alt="">
+                </span>
+                <ul class="mnt-options">
+                    <li>Limpieza Overhole</li>
+                    <li>Aire Acondicionado</li>
+                    <li>Polichada</li>
+                    <li>Pintura</li>
+                </ul>
+                <span class="containerArrows containerTramicars">
+                    Tramicars
+                    <img id="arrowTramicarsDesk" class="arrows" src="imgs/arrow.svg" alt="">
+                </span>
+                <ul class="tram-options">
+                    <li>SOAT</li>
+                    <li>Tecnicomecanica</li>
+                    <li>Liquidacion de impuestos</li>
+                    <li>Pago de Comparendo</li>
+                    <li>Pago de Comparendo</li>
+                    <li>Tramite de transpaso a nivel nacional</li>
+                </ul>
+            </nav>
+            <!-- MENU RESPONNSIVE -->
+            <div class="menu-responsive">
+                <img class="menu-burguer" src="imgs/menu-burguer.svg" alt="">
+                <div class="background-dark-modal test">
+                    <div class="background-white-modal">
+                        <img class="icon-close" src="imgs/icon-close-menu.svg" alt="">
+                        <nav class="container-options-mobile">
+                            <span class="container-arrows-mobile" href="">
+                                Venta
+                                <img class="arrows-mobile" src="imgs/arrowBlack.svg" alt="">
+                            </span>
+                            <ul class="vent-options-mobile">
+                                <li>nose</li>
+                                <li>nose</li>
+                                <li>nose</li>
+                                <li>nose</li>
+                            </ul>
+                            <span class="container-arrows-mobile" href="">
+                                Mantenimiento
+                                <img class="arrows-mobile" src="imgs/arrowBlack.svg" alt="">
+                            </span>
+                            <ul class="mnt-options-mobile">
+                                <li><img src="imgs/arrowBlack.svg" alt=""> Limpieza Overhole</li>
+                                <li><img src="imgs/arrowBlack.svg" alt=""> Aire Acondicionado</li>
+                                <li><img src="imgs/arrowBlack.svg" alt=""> Polichada</li>
+                                <li><img src="imgs/arrowBlack.svg" alt=""> Pintura</li>
+                            </ul>
+                            <span class="container-arrows-mobile" href="">
+                                Tramicars
+                                <img class="arrows-mobile" src="imgs/arrowBlack.svg" alt="">
+                            </span>
+                            <ul class="tram-options-mobile">
+                                <li>SOAT</li>
+                                <li>Tecnicomecanica</li>
+                                <li>Liquidacion de impuestos</li>
+                                <li>Pago de Comparendo</li>
+                                <li>Pago de Comparendo</li>
+                                <li>Tramite de transpaso a nivel nacional</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="container">
+            <aside class="description">
+                <div class="container-texts">
+                    <h2 class="title">conduce tu sueño,<br> elige con confianza</h2>
+                    <p class="text">Estamos comprometidos con proporcionarte<br class="br1"> información<br class="br"> actualizada y relevante<br class="br1"> para que puedas tomar<br class="br"> decisiones<br class="br1"> informadas y estar al tanto<br class="br1"> de las ultimas<br class="br"> tendencias<br class="br1"> en el mundo de<br class="br1"> los carros</p>
+                </div>
+                <!-- <h2 class="title">conduce tu sueño,<br> elige con confianza</h2>
+                <p class="text">Estamos comprometidos con proporcionarte información<br> actualizada y relevante para que puedas tomar<br> decisiones informadas y estar al tanto de las ultimas<br> tendencias en el mundo de los carros</p> -->
+                <button class="button">Tu carro aqui</button>
+            </aside>
+            <img class="img-main" src="imgs/imgMain11.png" alt="img main car">
+            <img class="img-responsive" src="imgs/imgResponsive11.png" alt="img responsive car">
+        </section>
+        
+        <section class="cars-section">
+            <div class="header-filter-products">
+                <span>
+                    <h1>motor</h1>
+                    <h1>sales</h1>
+                </span>
+                <div class="filter-container">
+                    <img class="icon-search" src="imgs/search.svg" alt="icon search">
+                    <input type="search" name="" id="input-filter" placeholder="FILTRAR">
+                </div>
+            </div>
+            <div class="section-cars" id="section-cars-container"><!-- display grid -->
+                <!-- Aqui van almacenados todos los carros que estan en el
+                archivo .json y estan siendo iterados en JS -->
+            </div>
+            <div class="mensaje">
+                <h3>No hay carros disponibles con el nombre digitado</h3>
+            </div>
+        </section>
+
+        <section class="maintenance-section">
+            <h2 class="maintenance-title">Mantenimiento</h2>
+            <div class="general-container">
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt ipsum quisquam deleniti aperiam, sint rem repellendus adipisci laboriosam ducimus voluptatum provident.Voluptatem odio nemo hic natus eveniet perspiciatis unde aliquam.</p>
+                <div class="gallery">
+                    <div class="gallery-container">
+
+                        <div class="gallery-item gallery-item-1" data-index="1">
+                            <img src="imgs/maintenance-imgs/cleaning-icon.svg" alt="">
+                            <h2>Lipieza Overhole</h2>
+                            <p>Esta sección es de la limpieza overhole que yo no se que es :v . Sequi quas voluptas fuga! Corporis quaerat tempora,  pariatur vero nam incidunt officiis quae, impedit repudiandae ad non ipsum sint saepe?</p>
+                        </div>
+                        <div class="gallery-item gallery-item-2" data-index="2">
+                            <img src="imgs/maintenance-imgs/air-icon.svg" alt="">
+                            <h2>Aire Acondicionado</h2>
+                            <p>Esta sección es sobre el aire acondicionado .. Corporis quaerat tempora, vel explicabo pariatur vero nam incidunt officiis quae, impedit repudiandae ad non  ipsum sint saepe?</p>
+                        </div>
+                        <div class="gallery-item gallery-item-3" data-index="3">                            
+                            <img src="imgs/maintenance-imgs/fire-extinguisher-icon.svg" alt="">
+                            <h2>Polichada</h2>
+                            <p>Esta sección es sobre la polichada. Corporis quaerat tempora, vel explicabo pariatur vero nam incidunt officiis quae, impedit repudiandae ad non ipsum sint saepe?</p>
+                        </div>
+                        <div class="gallery-item gallery-item-4" data-index="4">
+                            <img src="imgs/maintenance-imgs/brush-icon.svg" alt="">
+                            <h2>Pintura</h2>
+                            <p>Esta sección es sobre la pintura y acabado del vehiculo. Corporis quaerat tempora, vel explicabo pariatur vero nam incidunt officiis quae, impedit repudiandae ad non ipsum sint saepe?</p>
+                        </div>
+                    </div>
+                    <div class="gallery-controls"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tramicars-section">
+            <h1 class="tramicars-title">Tramicars</h1>
+            <div class="container-tramicars">
+                <div class="container-service">
+                    <img src="imgs/tramicars.imgs/soat.jpg" alt="">
+                    <div class="container-description">
+                        <h2 class="title-service">Soat</h2>
+                        <p class="description-service">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, a quaerat iure in quidem provident recusandae sed porro suscipit voluptate temporibus tempore? Atque consequatu</p>
+                    </div>
+                </div>
+
+                <div class="container-service">
+                    <img src="imgs/tramicars.imgs/técnico-mecánica.jpg" alt="">
+                    <div class="container-description">
+                        <h2 class="title-service">Tecnico mecanica</h2>
+                        <p class="description-service">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, a quaerat iure in quidem provident recusandae sed porro suscipit voluptate temporibus tempore? Atque consequatu</p>
+                    </div>
+                </div>
+
+                <div class="container-service">
+                    <img src="imgs/tramicars.imgs/luidacion-impuestos.jpg" alt="">
+                    <div class="container-description">
+                        <h2 class="title-service">Liquidacion de Impuestos</h2>
+                        <p class="description-service">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, a quaerat iure in quidem provident recusandae sed porro suscipit voluptate temporibus tempore? Atque consequatu</p>
+                    </div>
+                </div>
+
+                <div class="container-service">
+                    <img src="imgs/tramicars.imgs/pagoComparendos.jpg" alt="">
+                    <div class="container-description">
+                        <h2 class="title-service">Pago de Comparendos</h2>
+                        <p class="description-service">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, a quaerat iure in quidem provident recusandae sed porro suscipit voluptate temporibus tempore? Atque consequatu</p>
+                    </div>
+                </div>
+
+                <div class="container-service">
+                    <img src="imgs/tramicars.imgs/tramiteTranspaso.jpg" alt="">
+                    <div class="container-description">
+                        <h2 class="title-service transpaso">Tramite de transpaso a nivel nacional</h2>
+                        <p class="description-service">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, a quaerat iure in quidem provident recusandae sed porro suscipit voluptate temporibus tempore? Atque consequatu</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <h2 class="contact-title-mobile">Contáctanos</h2>
+            <div class="contact-container">
+                <div class="card-contact">
+                    <h2 class="contact-title">Contáctanos</h2>
+                    <p class="contact-description">Si tienes dudas o estas interesado en alguno de nuestros servicios, puedes contactarnos llenando el siguiente formulario y les escribiremos lo mas pronto posible.</p>
+                    <div class="social-media-container">
+                        <img class="logo-instagram" src="imgs/contact-imgs/instagram.svg" alt="logo de instagram">
+                        <img class="logo-facebook" src="imgs/contact-imgs/facebook.svg" alt="logo de facebook">
+                        <img class="logo-whatsApp" src="imgs/contact-imgs/whatsapp.svg" alt="logo de whatsApp">
+                    </div>
+                </div>
+
+                <form class="form-container" action="" method="post">
+                    <p class="contact-description-mobile">Si tienes dudas o estas interesado en alguno de nuestros servicios, puedes contactarnos llenando el siguiente formulario y les escribiremos lo mas pronto posible.</p>
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" class="form-input" placeholder=" ">
+                        <label for="name" class="form-label">Nombre:</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="number" id="number" class="form-input" placeholder=" ">
+                        <label for="number" class="form-label">Telefono:</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="email" id="email" class="form-input" placeholder=" ">
+                        <label for="email" class="form-label">Correo:</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-input textarea" name="description" id="description" rows="6" placeholder=" " maxlength="210"></textarea>                        
+                        <label for="description" class="form-label">Observaciones:</label>
+                    </div>    
+                    <input class="form-submit" id="button-submit" type="submit" value="Enviar">                    
+                </form>
+
+                <div class="social-media-container-mobile">
+                    <img class="logo-instagram-mobile" src="imgs/contact-imgs/instagramMobile.svg" alt="logo de instagram">
+                    <img class="logo-facebook-mobile" src="imgs/contact-imgs/facebookMobile.svg" alt="logo de facebook">
+                    <img class="logo-whatsApp-mobile" src="imgs/contact-imgs/whatsappMobile.svg" alt="logo de whatsApp">
+                </div>
+            </div>            
+        </section> 
+
+
+    </main>
+
+    <script src="js/script.js" type="module"></script>
+    <script src="js/apiRest.js"></script>
+    <script src="js/ejerciciosUnidad2.js"></script>
+
+</body>
+</html>
